@@ -297,26 +297,58 @@ section.faq .container-sm {
   gap: 1em;
   padding: 2em 0em;
 }
-section.faq ul {
+section.faq .container-sm ul {
   background-color: var(--dark-gray);
   display: flex;
-  min-width: 80%;
+  min-width: 50%;
   justify-content: space-between;
   align-items: center;
   padding: 0.8em 1em;
   border-radius: 8px;
 }
-section.faq ul li {
+section.faq .container-sm ul li {
   padding: 0.8em 0em;
 }
-section.faq ul li a {
+section.faq .container-sm ul li a {
   padding: 0.8em 1em;
   border-radius: 8px;
   font-weight: 500;
 }
-section.faq ul li a.active {
+section.faq .container-sm ul li a.active {
   background-color: var(--primary-color);
   color: var(--white);
+}
+section.faq .container-sm .faq-group {
+  border-bottom: 1px solid #ccc;
+  margin-top: 4em;
+  transform: all 0.3s ease;
+  /*             .faq-group-body.open .faq-group-header i {
+                  transform: rotate(180deg);
+                } */
+}
+section.faq .container-sm .faq-group .faq-group-header {
+  padding: 20px 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+section.faq .container-sm .faq-group .faq-group-header h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 95%;
+}
+section.faq .container-sm .faq-group .faq-group-header i {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+section.faq .container-sm .faq-group .faq-group-body {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+section.faq .container-sm .faq-group .faq-group-body.open {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
