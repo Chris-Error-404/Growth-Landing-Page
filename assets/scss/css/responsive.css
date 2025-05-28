@@ -74,13 +74,14 @@
   section.faq .container-sm h2 {
     width: 70%;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.875rem;
   }
   section.faq .container-sm .faq-group {
     margin-top: 0em;
   }
-  section.faq .container-sm .faq-group h4 {
-    font-size: 1.05em;
+  section.faq .container-sm .faq-group .faq-group-header h4 {
+    font-size: 1.1em;
+    width: 90%;
   }
   footer {
     padding: 2em 0em;

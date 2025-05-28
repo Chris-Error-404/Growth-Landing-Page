@@ -106,15 +106,21 @@
             h2{
                 width: 70%;
                 text-align: center;
-                font-size: 1.1rem;
+                font-size: 1.875rem;
             }
 
             .faq-group{
                 margin-top: 0em;
 
-                h4{
-                    font-size: 1.05em;
+
+                .faq-group-header{
+                    h4{
+                        font-size: 1.1em;
+                        width: 90%;
+                    }
                 }
+
+
             }
         }
     }
