@@ -86,6 +86,9 @@
   footer {
     padding: 2em 0em;
   }
+  footer .container img {
+    width: 28%;
+  }
   footer .container .contact-content {
     flex-direction: column;
     gap: 2em;
