@@ -29,7 +29,7 @@ This project serves as a focused learning challenge to:
 
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)  
 
- **Live Demo**: growth-landing-page-liart.vercel.app
+ **Live Demo**: [Growth-Landing-Page](https://www.youtube.com/traversymedia).
 
 ---
 
