@@ -72,9 +72,9 @@
     width: 100%;
   }
   section.faq .container-sm h2 {
-    width: 80%;
+    width: 70%;
     text-align: center;
-    font-size: 1.875rem;
+    font-size: 1.1rem;
   }
   section.faq .container-sm .faq-group {
     margin-top: 0em;
@@ -187,6 +187,7 @@
     margin: 0;
     padding: 0em;
     width: 100%;
+    border-bottom: 1px solid var(--dark-gray);
   }
   .mobile-header__toggle:checked ~ .mobile-header__nav .mobile-header__nav-list {
     max-height: 400px;
@@ -208,6 +209,15 @@
   }
   .mobile-header__nav-list li a i {
     margin-right: 0.5em;
+  }
+  a.log-in {
+    background-color: var(--gray);
+    padding: 1em;
+    border-radius: 8px;
+  }
+  a.log-in:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
   }
 }
 
