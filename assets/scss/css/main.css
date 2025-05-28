@@ -54,6 +54,9 @@ nav.desktop .container {
   align-items: center;
   padding: 2em 0em;
 }
+nav.desktop .container img {
+  width: 100%;
+}
 nav.desktop .container ul {
   display: flex;
   gap: 2em;
@@ -162,9 +165,11 @@ section.video .container-sm a {
   color: var(--white);
   padding: 0.8em 1em;
   border-radius: 8px;
+  transition: all 0.2s;
 }
 section.video .container-sm a:hover {
-  text-decoration: underline;
+  background-color: var(--white);
+  color: var(--black);
 }
 section.video .container {
   display: flex;
@@ -199,6 +204,7 @@ section.pricing {
   align-items: center;
   justify-content: center;
   gap: 1em;
+  padding: 2em 0em;
 }
 section.pricing h2 {
   font-size: 2.2rem;
@@ -222,12 +228,45 @@ section.pricing .container-sm .pricing-grid {
   gap: 2em;
 }
 section.pricing .container-sm .pricing-grid .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.1em;
+  padding-top: 4em;
   border-radius: 8px;
 }
 section.pricing .container-sm .pricing-grid .card span {
   font-size: 2.2rem;
   line-height: 1.4;
   font-weight: 500;
+}
+section.pricing .container-sm .pricing-grid .card a {
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  transition: all 0.2s;
+  margin-top: 1em;
+}
+section.pricing .container-sm .pricing-grid .card a:hover {
+  background-color: var(--black);
+}
+section.pricing .container-sm .pricing-grid .card a.premium:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+section.pricing .container-sm .pricing-grid .card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+section.pricing .container-sm .pricing-grid .card ul i {
+  margin-right: 0.5em;
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(1) {
   background-color: var(--gray);
