@@ -197,7 +197,7 @@ section.video .container .testimonials-grid .card {
 }
 section.video .container .testimonials-grid .card p:nth-child(2) {
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 section.pricing {
@@ -298,16 +298,25 @@ section.faq .container-sm {
   padding: 2em 0em;
 }
 section.faq ul {
-  border: 1px solid red;
+  background-color: var(--dark-gray);
   display: flex;
   min-width: 80%;
   justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1em;
+  border-radius: 8px;
 }
 section.faq ul li {
-  border: 1px solid green;
+  padding: 0.8em 0em;
 }
 section.faq ul li a {
-  border: 1px solid yellow;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  font-weight: 500;
+}
+section.faq ul li a.active {
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 /*# sourceMappingURL=main.css.map */
