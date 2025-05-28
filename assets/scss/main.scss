@@ -42,6 +42,14 @@ html{
             line-height: 1.4;
             font-weight:400;
         }
+
+        input{
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        input::placeholder{
+            font-family: 'Work Sans', sans-serif;
+        }
     }
 }
 
@@ -181,7 +189,7 @@ section.video{
     gap: 6em;
     background-color: var(--black);
     color: var(--white);
-    padding: 2em 0em;
+    padding: 4em 0em;
 
     .container-sm{
         display: flex;
@@ -408,6 +416,7 @@ section.faq{
             .faq-group-body{
                 display: none;
                 transition: all 0.3s ease-in-out;
+                padding-bottom: 1em;
                 
             }
 
@@ -421,5 +430,111 @@ section.faq{
             
 
         }
+    }
+}
+
+footer{
+    background-color: var(--black);
+    padding: 4em 0em;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        
+        .contact-content{
+            display: flex;
+            justify-content: space-between;
+    
+    
+            form{
+                background-color: var(--white);
+                display: flex;
+                flex-direction: column;
+                gap: 0.5em;
+                padding: 1.5em;
+                border-radius: 8px;
+                max-width: 35%;
+        
+                h4{
+                    color: var(--black);
+                    font-weight: 600;
+                    font-size: 1.2em;
+                }
+        
+                input{
+                    font-size: 1em;
+                    margin-top: 0.5em;
+                    margin-bottom: 0.5em;
+                    padding: 0.8em 1em;
+                    border-radius: 8px;
+                    outline: transparent;
+                    border: 1px solid var(--dark-gray);
+                }
+        
+                button{
+                    background-color: var(--primary-color);
+                    color: var(--white);
+                    font-size: 1em;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 100%;
+                    padding: 0.8em 1em;
+                    border: transparent;
+                    outline: transparent;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                }
+        
+                button:hover{
+                    
+                    background-color: var(--black);
+                    color: var(--white);
+                }
+    
+    
+            }
+    
+            h4{
+                color: var(--white);
+                font-size: 1.2em;
+                font-weight: 500;
+                margin-bottom: 0.8em;
+            }
+    
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5em;
+            }
+
+            a{
+                color: var(--dark-gray);
+                transition: all 0.2s;
+            }
+
+            a:hover{
+                color: var(--primary-color);
+            }
+        }
+
+        .icons{
+            display: flex;
+            gap: 1.5em;
+
+            i{
+                color: var(--gray);
+                font-size: 2em;
+                transition: all 0.2s;
+            }
+
+            i:hover{
+                    color: var(--primary-color);
+            }
+        }
+
     }
 }

@@ -37,6 +37,12 @@ html body h2 {
   line-height: 1.4;
   font-weight: 400;
 }
+html body input {
+  font-family: "Work Sans", sans-serif;
+}
+html body input::placeholder {
+  font-family: "Work Sans", sans-serif;
+}
 
 .container {
   max-width: 1100px;
@@ -151,7 +157,7 @@ section.video {
   gap: 6em;
   background-color: var(--black);
   color: var(--white);
-  padding: 2em 0em;
+  padding: 4em 0em;
 }
 section.video .container-sm {
   display: flex;
@@ -346,9 +352,97 @@ section.faq .container-sm .faq-group .faq-group-header i {
 section.faq .container-sm .faq-group .faq-group-body {
   display: none;
   transition: all 0.3s ease-in-out;
+  padding-bottom: 1em;
 }
 section.faq .container-sm .faq-group .faq-group-body.open {
   display: block;
+}
+
+footer {
+  background-color: var(--black);
+  padding: 4em 0em;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+footer .container .contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .contact-content form {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1.5em;
+  border-radius: 8px;
+  max-width: 35%;
+}
+footer .container .contact-content form h4 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+footer .container .contact-content form input {
+  font-size: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  outline: transparent;
+  border: 1px solid var(--dark-gray);
+}
+footer .container .contact-content form button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 1em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  padding: 0.8em 1em;
+  border: transparent;
+  outline: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+footer .container .contact-content form button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+footer .container .contact-content h4 {
+  color: var(--white);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+}
+footer .container .contact-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+footer .container .contact-content a {
+  color: var(--dark-gray);
+  transition: all 0.2s;
+}
+footer .container .contact-content a:hover {
+  color: var(--primary-color);
+}
+footer .container .icons {
+  display: flex;
+  gap: 1.5em;
+}
+footer .container .icons i {
+  color: var(--gray);
+  font-size: 2em;
+  transition: all 0.2s;
+}
+footer .container .icons i:hover {
+  color: var(--primary-color);
 }
 
 /*# sourceMappingURL=main.css.map */
