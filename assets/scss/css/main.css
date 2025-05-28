@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
 
 :root {
   --primary-color:#4891ff;
+  --dark-gray: #ddd;
   --gray: #f4f4f6;
   --black: #111;
   --white: #fff;
@@ -34,7 +35,7 @@ html body img {
 html body h2 {
   font-size: 2.2rem;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .container {
@@ -104,7 +105,7 @@ section.hero .container .hero-content {
 section.hero .container .hero-content h1 {
   font-size: 3rem;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 500;
   width: 70%;
 }
 section.hero .container .hero-content .button-container {
@@ -235,7 +236,7 @@ section.pricing .container-sm .pricing-grid .card {
 section.pricing .container-sm .pricing-grid .card span {
   font-size: 2.2rem;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 400;
 }
 section.pricing .container-sm .pricing-grid .card a {
   background-color: var(--primary-color);
@@ -277,6 +278,36 @@ section.pricing .container-sm .pricing-grid .card:nth-child(2) {
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(2) span {
   color: var(--white);
+}
+
+section.faq {
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em 0em;
+}
+section.faq .container-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em 0em;
+}
+section.faq ul {
+  border: 1px solid red;
+  display: flex;
+  min-width: 80%;
+  justify-content: space-between;
+}
+section.faq ul li {
+  border: 1px solid green;
+}
+section.faq ul li a {
+  border: 1px solid yellow;
 }
 
 /*# sourceMappingURL=main.css.map */
