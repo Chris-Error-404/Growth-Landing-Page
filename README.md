@@ -1,12 +1,12 @@
 # Growth-Landing-Page
 
-## 🧭 Overview
+## Overview
 
 **Growth** is a sleek, modern landing page design originally demonstrated by [Traversy Media](https://www.youtube.com/traversymedia). This project is a **personal recreation** of that design, built with **HTML**, **SCSS**, and **JavaScript** to enhance and solidify my frontend styling skills, particularly in **SCSS**.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 This project serves as a focused learning challenge to:
 
@@ -17,7 +17,7 @@ This project serves as a focused learning challenge to:
 
 ---
 
-## 🛠️ Tech Stack & Languages
+## Tech Stack & Languages
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)  
 ![SCSS](https://img.shields.io/badge/-SCSS-CC6699?logo=sass&logoColor=white&style=for-the-badge)  
@@ -25,15 +25,15 @@ This project serves as a focused learning challenge to:
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)  
 
-👉 **Live Demo**: _Coming soon..._
+ **Live Demo**: _Coming soon..._
 
 ---
 
-## 📝 Changes & Notes
+## Changes & Notes
 
 - Rebuilt layout and style from scratch using SCSS partials and variables  
 - Responsive design implemented using flexbox and media queries  
@@ -43,7 +43,7 @@ This project serves as a focused learning challenge to:
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Feedback, ideas, and contributions are welcome!  
 
