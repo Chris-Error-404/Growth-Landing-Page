@@ -67,6 +67,10 @@ html{
     padding: 0 15px; 
 }
 
+.mobile-header{
+    display: none;
+}
+
 nav.desktop{
     background-color: var(--white);
     margin-bottom: 4em;

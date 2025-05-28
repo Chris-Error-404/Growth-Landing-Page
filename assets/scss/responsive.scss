@@ -143,6 +143,9 @@
 
 
 @media (max-width: 1024px){
+    .mobile-header{
+        display: block;
+    }
     /* STICKY HEADER */
     .mobile-header {
       position: sticky;
