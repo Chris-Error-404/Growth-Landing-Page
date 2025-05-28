@@ -168,7 +168,7 @@ section.video{
     gap: 6em;
     background-color: var(--black);
     color: var(--white);
-    padding: 4em 0em;
+    padding: 2em 0em;
 
     h2{
         font-size: 2.2rem;
@@ -228,4 +228,66 @@ section.video{
         }
         
     }
+}
+
+section.pricing{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    
+    h2{
+        font-size: 2.2rem;
+        line-height: 1.4;
+        font-weight:500;
+    }
+
+    span{
+        color: var(--primary-color);
+    }
+
+    .container-sm{
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+
+        .pricing-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2em;
+    
+            .card{
+                border-radius: 8px;
+                
+                span{
+                    font-size: 2.2rem;
+                    line-height: 1.4;
+                    font-weight:500;
+                }
+            }
+        }
+
+        .pricing-grid .card:nth-child(1){
+            background-color: var(--gray);
+
+            span{               
+                color: var(--black);
+            }
+        }
+        .pricing-grid .card:nth-child(2){
+            background-color: var(--black);
+            color: var(--white);
+
+            span{
+                color: var(--white);
+            }
+        }
+    }
+
 }
