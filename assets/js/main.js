@@ -1,3 +1,27 @@
+//MOBILE NAV SCRIPT
+/* ============================= */
+/* CLOSE MENU WHEN CLICK OUTSIDE */
+/* AND PREVENT BODY SCROLL IF DESIRED */
+/* ============================= */
+document.addEventListener('click', function(event) {
+  const navToggle = document.querySelector('.mobile-header__toggle');
+  const header    = document.querySelector('.mobile-header');
+
+  // Close when clicking outside header
+  if (navToggle.checked && !header.contains(event.target)) {
+    navToggle.checked = false;
+  }
+});
+
+// Optional: disable body scroll when menu open
+document.querySelector('.mobile-header__toggle')
+  .addEventListener('change', function() {
+    document.body.style.overflow = this.checked ? 'hidden' : '';
+  });
+
+
+
+
 // FAQ Accordion
 document.addEventListener('DOMContentLoaded', () => {
     const faqContainer = document.querySelector('.faq-content');
