@@ -132,10 +132,18 @@
 
             .contact-content{
                 flex-direction: column;
-                gap: 1.5em;
+                gap: 2em;
 
                 form{
                     max-width: 100%;
+                }
+
+                h4{
+                    font-size: 1em;
+                }
+
+                a{
+                    font-size: 0.95em;
                 }
             }
 
@@ -143,6 +151,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                gap: 1em;
+
+                i{
+                    font-size: 1.5em;
+                }
             }
         }
     }

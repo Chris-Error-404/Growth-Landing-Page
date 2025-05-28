@@ -88,15 +88,25 @@
   }
   footer .container .contact-content {
     flex-direction: column;
-    gap: 1.5em;
+    gap: 2em;
   }
   footer .container .contact-content form {
     max-width: 100%;
+  }
+  footer .container .contact-content h4 {
+    font-size: 1em;
+  }
+  footer .container .contact-content a {
+    font-size: 0.95em;
   }
   footer .container .icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1em;
+  }
+  footer .container .icons i {
+    font-size: 1.5em;
   }
 }
 @media (max-width: 1024px) {
