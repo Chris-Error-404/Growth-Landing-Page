@@ -1,0 +1,97 @@
+@media (max-width: 1024px) {
+  html body h2 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  nav.desktop {
+    display: none;
+  }
+  section.hero .container {
+    background: var(--white);
+    min-height: fit-content;
+  }
+  section.hero .container .hero-content h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  section.hero .container .hero-content .button-container {
+    flex-direction: column;
+  }
+  section.hero .container .hero-content .button-container a {
+    width: 100%;
+  }
+  section.hero .container .hero-content img.mobile {
+    display: block;
+    margin-top: 3em;
+  }
+  section.video {
+    padding: 2em 0em;
+    gap: 2em;
+  }
+  section.video .container-sm {
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 3em;
+  }
+  section.video .container-sm a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.video .container {
+    gap: 1em;
+  }
+  section.video .container .testimonials-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  section.pricing {
+    padding: 2em 0em;
+  }
+  section.pricing .container-sm .pricing-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  section.pricing .container-sm .pricing-grid p {
+    text-align: left;
+  }
+  section.pricing .container-sm p {
+    text-align: center;
+  }
+  section.faq .container-sm {
+    padding: 0em 1em;
+  }
+  section.faq .container-sm ul {
+    width: 100%;
+  }
+  section.faq .container-sm h2 {
+    width: 80%;
+    text-align: center;
+    font-size: 1.875rem;
+  }
+  section.faq .container-sm .faq-group {
+    margin-top: 0em;
+  }
+  section.faq .container-sm .faq-group h4 {
+    font-size: 1.1em;
+  }
+  footer {
+    padding: 2em 0em;
+  }
+  footer .container .contact-content {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  footer .container .contact-content form {
+    max-width: 100%;
+  }
+  footer .container .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

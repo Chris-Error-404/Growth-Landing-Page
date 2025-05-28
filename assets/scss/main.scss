@@ -131,6 +131,10 @@ section.hero{
             flex-direction: column;
             gap: 1em;
 
+            img.mobile{
+                display: none;
+            }
+
             h1{
                 font-size: 3rem;
                 line-height: 1.2; //always put line height incase it wraps

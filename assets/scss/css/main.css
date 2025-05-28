@@ -108,6 +108,9 @@ section.hero .container .hero-content {
   flex-direction: column;
   gap: 1em;
 }
+section.hero .container .hero-content img.mobile {
+  display: none;
+}
 section.hero .container .hero-content h1 {
   font-size: 3rem;
   line-height: 1.2;
