@@ -2,15 +2,9 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-:root {
-  --primary-color:#4891ff;
-  --dark-gray: #ddd;
-  --gray: #f4f4f6;
-  --black: #111;
-  --white: #fff;
 }
 
 html {
@@ -27,7 +21,7 @@ html body ul, html body li {
 }
 html body a {
   text-decoration: none;
-  color: var(--black);
+  color: #111;
 }
 html body img {
   max-width: 100%;
@@ -61,7 +55,7 @@ html body input::placeholder {
 }
 
 nav.desktop {
-  background-color: var(--white);
+  background-color: #fff;
   margin-bottom: 4em;
 }
 nav.desktop .container {
@@ -83,10 +77,10 @@ nav.desktop .container ul li a {
   transition: all 0.2s;
 }
 nav.desktop .container ul li a:hover {
-  color: var(--primary-color);
+  color: #4891ff;
 }
 nav.desktop .container ul li a.log-in {
-  background-color: var(--gray);
+  background-color: #f4f4f6;
   padding: 1em;
   border-radius: 8px;
 }
@@ -94,8 +88,8 @@ nav.desktop .container ul li a.log-in i {
   margin-right: 0.5em;
 }
 nav.desktop .container ul li a.log-in:hover {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
 }
 
 section.hero {
@@ -141,19 +135,19 @@ section.hero .container .hero-content .button-container a i {
   margin-right: 0.5em;
 }
 section.hero .container .hero-content .button-container a:nth-child(1) {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
 }
 section.hero .container .hero-content .button-container a:nth-child(1):hover {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #111;
+  color: #fff;
 }
 section.hero .container .hero-content .button-container a:nth-child(2) {
-  background-color: var(--gray);
+  background-color: #f4f4f6;
 }
 section.hero .container .hero-content .button-container a:nth-child(2):hover {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
 }
 
 section.video {
@@ -162,8 +156,8 @@ section.video {
   align-items: center;
   justify-content: center;
   gap: 6em;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #111;
+  color: #fff;
   padding: 4em 0em;
 }
 section.video .container-sm {
@@ -177,15 +171,15 @@ section.video .container-sm h2 {
   text-align: center;
 }
 section.video .container-sm a {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
   padding: 0.8em 1em;
   border-radius: 8px;
   transition: all 0.2s;
 }
 section.video .container-sm a:hover {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: #fff;
+  color: #111;
 }
 section.video .container {
   display: flex;
@@ -214,7 +208,7 @@ section.video .container .testimonials-grid .card p:nth-child(2) {
 }
 
 section.pricing {
-  background-color: var(--white);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,10 +217,10 @@ section.pricing {
   padding: 2em 0em;
 }
 section.pricing span {
-  color: var(--primary-color);
+  color: #4891ff;
 }
 section.pricing .container-sm {
-  background-color: var(--white);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,8 +246,8 @@ section.pricing .container-sm .pricing-grid .card span {
   font-weight: 400;
 }
 section.pricing .container-sm .pricing-grid .card a {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
   width: 100%;
   font-weight: 500;
   display: flex;
@@ -265,11 +259,11 @@ section.pricing .container-sm .pricing-grid .card a {
   margin-top: 1em;
 }
 section.pricing .container-sm .pricing-grid .card a:hover {
-  background-color: var(--black);
+  background-color: #111;
 }
 section.pricing .container-sm .pricing-grid .card a.premium:hover {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: #fff;
+  color: #111;
 }
 section.pricing .container-sm .pricing-grid .card ul {
   display: flex;
@@ -280,21 +274,21 @@ section.pricing .container-sm .pricing-grid .card ul i {
   margin-right: 0.5em;
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(1) {
-  background-color: var(--gray);
+  background-color: #f4f4f6;
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(1) span {
-  color: var(--black);
+  color: #111;
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(2) {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #111;
+  color: #fff;
 }
 section.pricing .container-sm .pricing-grid .card:nth-child(2) span {
-  color: var(--white);
+  color: #fff;
 }
 
 section.faq {
-  background-color: var(--gray);
+  background-color: #f4f4f6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -311,7 +305,7 @@ section.faq .container-sm {
   padding: 2em 0em;
 }
 section.faq .container-sm ul {
-  background-color: var(--dark-gray);
+  background-color: #ddd;
   display: flex;
   min-width: 50%;
   justify-content: space-between;
@@ -328,8 +322,8 @@ section.faq .container-sm ul li a {
   font-weight: 500;
 }
 section.faq .container-sm ul li a.active {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
 }
 section.faq .container-sm .faq-group {
   border-bottom: 1px solid #ccc;
@@ -366,7 +360,7 @@ section.faq .container-sm .faq-group .faq-group-body.open {
 }
 
 footer {
-  background-color: var(--black);
+  background-color: #111;
   padding: 4em 0em;
 }
 footer .container {
@@ -379,7 +373,7 @@ footer .container .contact-content {
   justify-content: space-between;
 }
 footer .container .contact-content form {
-  background-color: var(--white);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -388,7 +382,7 @@ footer .container .contact-content form {
   max-width: 35%;
 }
 footer .container .contact-content form h4 {
-  color: var(--black);
+  color: #111;
   font-weight: 600;
   font-size: 1.2em;
 }
@@ -399,11 +393,11 @@ footer .container .contact-content form input {
   padding: 0.8em 1em;
   border-radius: 8px;
   outline: transparent;
-  border: 1px solid var(--dark-gray);
+  border: 1px solid #ddd;
 }
 footer .container .contact-content form button {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: #4891ff;
+  color: #fff;
   font-size: 1em;
   font-weight: 500;
   display: flex;
@@ -418,11 +412,11 @@ footer .container .contact-content form button {
   transition: all 0.2s;
 }
 footer .container .contact-content form button:hover {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #111;
+  color: #fff;
 }
 footer .container .contact-content h4 {
-  color: var(--white);
+  color: #fff;
   font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 0.8em;
@@ -433,23 +427,23 @@ footer .container .contact-content ul {
   gap: 0.5em;
 }
 footer .container .contact-content a {
-  color: var(--dark-gray);
+  color: #ddd;
   transition: all 0.2s;
 }
 footer .container .contact-content a:hover {
-  color: var(--primary-color);
+  color: #4891ff;
 }
 footer .container .icons {
   display: flex;
   gap: 1.5em;
 }
 footer .container .icons i {
-  color: var(--gray);
+  color: #f4f4f6;
   font-size: 2em;
   transition: all 0.2s;
 }
 footer .container .icons i:hover {
-  color: var(--primary-color);
+  color: #4891ff;
 }
 
 /*# sourceMappingURL=main.css.map */
