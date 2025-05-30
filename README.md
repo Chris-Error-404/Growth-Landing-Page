@@ -29,7 +29,7 @@ This project serves as a focused learning challenge to:
 
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)  
 
- **Live Demo**: _Coming soon..._
+ **Live Demo**: [Growth-Landing-Page](https://www.youtube.com/traversymedia).
 
 ---
 
@@ -57,7 +57,7 @@ Or open an issue to start a conversation.
 
 ---
 
-## 📁 Getting Started
+## Getting Started
 
 To run this project locally:
 
