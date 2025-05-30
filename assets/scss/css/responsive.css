@@ -87,7 +87,7 @@
     padding: 2em 0em;
   }
   footer .container img {
-    width: 28%;
+    width: 100px;
   }
   footer .container .contact-content {
     flex-direction: column;
@@ -115,6 +115,9 @@
 @media (max-width: 1024px) {
   .mobile-header {
     display: block;
+  }
+  .mobile-header img {
+    width: 100px;
   }
   /* STICKY HEADER */
   .mobile-header {

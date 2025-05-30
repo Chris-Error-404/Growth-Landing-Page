@@ -1,5 +1,3 @@
-
-
 @media (max-width: 1024px){
 
     html{
@@ -132,7 +130,7 @@
 
         .container{
             img{
-                width: 28%;
+                width: 100px;
             }
 
             .contact-content{
@@ -172,6 +170,10 @@
 @media (max-width: 1024px){
     .mobile-header{
         display: block;
+
+        img{
+            width: 100px;
+        }
     }
     /* STICKY HEADER */
     .mobile-header {
