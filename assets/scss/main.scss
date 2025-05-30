@@ -147,7 +147,8 @@ section.hero{
                     justify-content: center;
                     align-items: center;
                     min-width: 15%;
-                    padding: 0.8em 1em;
+                    /* padding: 0.8em 1em; */
+                    padding: var.$btn-padding;
                     border-radius: 8px;
                     transition: all 0.2s;
 
