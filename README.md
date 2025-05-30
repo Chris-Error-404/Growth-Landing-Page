@@ -57,7 +57,7 @@ Or open an issue to start a conversation.
 
 ---
 
-## 📁 Getting Started
+## Getting Started
 
 To run this project locally:
 
